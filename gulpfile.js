@@ -11,8 +11,8 @@ gulp.task('js', function() {
 });
 
 gulp.task('sass', function() {
-	return sass('process/sass.style.scss', {
-		sourcemap: true.
+	return sass('process/sass/style.scss', {
+		sourcemap: true,
 		style: 'expanded'
 	})
     .on('error', function (err) {
